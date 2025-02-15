@@ -19,18 +19,6 @@
 # Visual Studio Code related
 .vscode/
 
-# Flutter repo-specific
-/bin/cache/
-/bin/mingit/
-/dev/benchmarks/mega_gallery/
-/dev/bots/.recipe_deps
-/dev/bots/android_tools/
-/dev/docs/doc/
-/dev/docs/lib/
-/dev/docs/pubspec.yaml
-/packages/flutter/coverage/
-version
-
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
@@ -39,10 +27,6 @@ version
 .pub-cache/
 .pub/
 build/
-flutter_*.png
-linked_*.ds
-unlinked.ds
-unlinked_spec.ds
 
 # Android related
 **/android/**/gradle-wrapper.jar
@@ -51,7 +35,6 @@ unlinked_spec.ds
 **/android/gradlew
 **/android/gradlew.bat
 **/android/local.properties
-**/android/key.properties
 **/android/**/GeneratedPluginRegistrant.java
 
 # iOS/XCode related
@@ -86,11 +69,3 @@ unlinked_spec.ds
 !**/ios/**/default.pbxuser
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-
-# Local files
-login_response.json
-
-.flutter-plugins-dependencies
-example/ios/Flutter/.last_build_id
-example/ios/Flutter/flutter_export_environment.sh
-example/ios/Flutter/Flutter.podspec
